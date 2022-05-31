@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.dto">
+    <class name="Operator1" table="CovidOperator1">
+      <id name="id" column="id1"/>
+      <property name="name" column="name"/>
+      
+        
+        <joined-subclass name="Patient1" table="Patient1">
+
+<key column="id1"/>
+    <property name="pId" column="Pid"/>
+      <property name="pName" column="Pname"/>
+      
+      <property name="room" column="Room"/>
+      <property name="bedNo" column="Bedno"/>
+      <property name="treatment" column="Treatment"/> 
+      <property name="doc" column="Doctor"/>
+      <property name="history" column="History"/>
+      <property name="contact" column="Contact"/>
+      <property name="admitDate" column="AdmitDate"/>
+      <property name="dischargeDate" column="DischargeDate"/>
+        </joined-subclass>
+
+</class>
+</hibernate-mapping>

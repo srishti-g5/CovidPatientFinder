@@ -3,11 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/srishti/NetBeansProjects/CovidPatientFinder/src/Project/UserWindow.java</file>
-            <file>file:/D:/srishti/NetBeansProjects/CovidPatientFinder/src/Project/OperatorWindow.java</file>
-            <file>file:/D:/srishti/NetBeansProjects/CovidPatientFinder/src/hib/dto/Admin.java</file>
-            <file>file:/D:/srishti/NetBeansProjects/CovidPatientFinder/src/hib/dto/Admin.hbm.xml</file>
-            <file>file:/D:/srishti/NetBeansProjects/CovidPatientFinder/src/Project/AdminWindow.java</file>
+            <file>file:/D:/srishti/NetBeansProjects/CovidPatientFinder/src/hib/dto/DoctorDetail.java</file>
         </group>
     </open-files>
 </project-private>

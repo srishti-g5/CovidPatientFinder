@@ -16,7 +16,7 @@ public class Request {
     }
     
 
-    public Request(String patientName, int patientAge, String gender, String userId) {
+    public Request(String userId,String patientName, int patientAge, String gender) {
        this.userId=userId;
         this.patientName = patientName;
         this.patientAge = patientAge;

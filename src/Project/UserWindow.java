@@ -692,7 +692,7 @@ public class UserWindow extends javax.swing.JFrame implements Runnable {
         else if(jRadioButton3.isSelected())
         gender="Other";
 
-        Request rq=new Request(LoginWindow.id, pAge, pName,gender);
+        Request rq=new Request(LoginWindow.id,pName,pAge,gender);
         session.save(rq);
         tx.commit();
         JOptionPane.showMessageDialog(this,"Record Inserted");

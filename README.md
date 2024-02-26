@@ -11,9 +11,7 @@ The COVID Patient Finder project is a Java-based Hospital Management System that
   - `DoctorDetail.java`
   - `HospitalDetail.java`
   - `Operator.java`
-  - `Operator1.java`
   - `Patient.java`
-  - `Patient1.java`
   - `Request.java`
   - `User.java`
   - ...

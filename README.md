@@ -2,7 +2,7 @@
 
 # COVID Patient Finder
 
-The COVID Patient Finder project is a Java-based Hospital Management System that aids in managing COVID-related patient information. The system includes interfaces for administrators, operators, and users to handle various tasks within a healthcare environment.
+The COVID Patient Finder project is a Java-based Hospital Management System that aids in managing COVID-related patient information. The system includes interfaces for administrators, operators, and users to handle various tasks within a healthcare environment.It is a desktop based application which allows user to login and see details regarding covid patients admitted in hospital which is updated by operator through same application. The user can also check the availability of beds and request for the same.Designed in java as front end and mysql as back-end
 
 ## Project Structure
 
